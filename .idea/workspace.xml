@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83795ef4-e9b6-49ea-b22d-d048f26b0d85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android/jni/Android.mk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android/jni/Canvas.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android/jni/Canvas.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android/jni/DebugApplication.mk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FastCanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android/jni/JNIHelper.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android/jni/JNIHelper.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NOTICE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android/src/com/adobe/plugins/UpgradeFastCanvas.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android/jni/UpgradeFastCanvasJNI.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android/jni/UpgradeFastCanvasJNI.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android/src/com/adobe/plugins/UpgradeFastCanvasJNI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android/src/com/adobe/plugins/UpgradeFastCanvasMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android/src/com/adobe/plugins/UpgradeFastCanvasRenderer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android/src/com/adobe/plugins/UpgradeFastCanvasTexture.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android/src/com/adobe/plugins/UpgradeFastCanvasTextureDimension.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android/src/com/adobe/plugins/UpgradeFastCanvasView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android/ant.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android/build.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android/libs/armeabi/libUpgradeFastCanvasJNI.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android/jni/lodepng.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android/jni/lodepng.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android/project.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/upgrade-fast-canvas.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="C:\Users\Claudio\Documents\upgrade-fast-canvas\FastCanvas.js" afterPath="$PROJECT_DIR$/UpgradeFastCanvas.js" />
     </list>
     <ignored path="upgrade-fast-canvas.iws" />
     <ignored path=".idea/workspace.xml" />

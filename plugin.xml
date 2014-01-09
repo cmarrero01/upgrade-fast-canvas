@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  id="com.adobe.plugins.UpgradeFastCanvas"
+  version="1.0.1">
+
+  <engines>
+    <engine name="cordova" version=">=2.3.0" />
+  </engines>
+  
+  <license>Apache 2.0</license>
+
+  <name>Upgrade Fast Canvas</name>
+  
+  <description>
+    This plugin is the Same that Fast Canvas but with more compatibilities with most recently versions of phonegap.&lt;/p&gt;
+  </description>
+  
+  <asset src="UpgradeFastCanvas.js" target="UpgradeFastCanvas.js" />
+
+  <platform name="android">
+    
+    <config-file target="res/xml/config.xml" parent="plugins">
+      <plugin name="UpgradeFastCanvas" value="com.adobe.plugins.UpgradeFastCanvas" />
+    </config-file>
+
+    <config-file target="AndroidManifest.xml" parent="/manifest">
+        <uses-feature android:glEsVersion="0x00010001" android:required="true" />
+        <application android:hardwareAccelerated="true">
+        </application>
+    </config-file>
+        
+    <source-file src="Android/src/com/adobe/plugins/UpgradeFastCanvas.java" target-dir="src/com/adobe/plugins/" />
+    <source-file src="Android/src/com/adobe/plugins/UpgradeFastCanvasJNI.java" target-dir="src/com/adobe/plugins/" />
+    <source-file src="Android/src/com/adobe/plugins/UpgradeFastCanvasMessage.java" target-dir="src/com/adobe/plugins/" />
+    <source-file src="Android/src/com/adobe/plugins/UpgradeFastCanvasRenderer.java" target-dir="src/com/adobe/plugins/" />
+    <source-file src="Android/src/com/adobe/plugins/UpgradeFastCanvasTexture.java" target-dir="src/com/adobe/plugins/" />
+    <source-file src="Android/src/com/adobe/plugins/UpgradeFastCanvasTextureDimension.java" target-dir="src/com/adobe/plugins/" />
+    <source-file src="Android/src/com/adobe/plugins/UpgradeFastCanvasView.java" target-dir="src/com/adobe/plugins/" />
+    <source-file src="Android/libs/armeabi/libUpgradeFastCanvasJNI.so" target-dir="libs/armeabi/" />
+  </platform>
+</plugin>
